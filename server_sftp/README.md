@@ -49,6 +49,21 @@ graph TD
     end
 ```
 
+## Other
+
+```mermaid
+graph TD
+    subgraph Container_A [«server» 💻 Ubuntu]
+        subgraph Container_B [«docker» 💻 SFTP]
+            subgraph Container_C [«docker» 📂 server_sftp]
+                C1[«folder»\<br/> 📂 1_file_new]
+                C2[«folder»\<br/> 📂 1_file_processed]
+                C3[«folder»\<br/> 📂 1_file_errors]
+            end
+        end
+    end
+```
+
 ## Aprendiendo mermad
 
 ```mermaid
