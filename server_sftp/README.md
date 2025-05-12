@@ -64,7 +64,7 @@ graph TD
 
     Start((Start)) --> A
     A --> B
-    C --> B
+    C --- B
     C --> D
     D --> End((End))
 ```
