@@ -1,6 +1,11 @@
-# SFTP Server
+# Server SFTP
 
-## Other
+Detail of the SFTP server implementation in Docker, as well as an overview from the perspective of the solution architecture and the process flow of this part of the application.
+
+- [Introduction](#introduction)
+- [Server Architecture with Docker and Volumes](#server-architecture-with-docker-and-volumes)
+
+## Introduction
 
 From the `Data Street` project, functionality is provided that allows a personal computer, using an SFTP client, to connect to the application's SFTP server and upload files in `CSV` format. These files will later be processed by other components defined in the application's architecture, which will be reviewed in detail in other sections.
 
@@ -15,10 +20,10 @@ graph TD
         B1[«folder»\<br/> 📂 server_sftp]
     end
     
-    A1 -- send CSV files --> B1
+    A1 -- upload CSV files --> B1
 ```
 
-## Otro
+## Server Architecture with Docker and Volumes
 
 ```mermaid
 graph TD
