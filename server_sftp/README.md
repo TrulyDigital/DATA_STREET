@@ -63,15 +63,15 @@ graph TB
 ```mermaid
 graph TD
     subgraph Container_A [.]
-        A[«laptop»\<br/> 💻 User]
-        B[«docker»\<br/> 💻 sftp_server]
-        C[«docker»\<br/> 🔵 kafka_connect]
+        A[«1_laptop»\<br/> 💻 User]
+        B[«2_docker»\<br/> 💻 sftp_server]
+        C[«3_docker»\<br/> 🔵 kafka_connect]
         C:::note_c
-        D[«docker»\<br/> 🔵 kafka_topic]
+        D[«4_docker»\<br/> 🔵 kafka_topic]
         D:::note_d
-        E[«docker»\<br/> 🔵 microservice]
+        E[«5_docker»\<br/> 🔵 microservice]
         E:::note_e
-        F[«docker»\<br/> 🔵 database]
+        F[«6_docker»\<br/> 🔵 database]
         F:::note_f
     end
 
