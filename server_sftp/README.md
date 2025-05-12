@@ -14,11 +14,11 @@ graph TD
 ```mermaid
 graph TD
     
-    subgraph Container_A [«laptop» 💻 User]
+    subgraph Container_A [«laptop»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💻 User]
         A1[«software»\<br> Client SFTP]
     end
 
-    subgraph Container_B [«server»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ubuntu]
+    subgraph Container_B [«server»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💻 Ubuntu]
         B1[«folder»\<br/> 📂 server_sftp]
     end
     
