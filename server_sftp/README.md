@@ -28,7 +28,7 @@ graph TD
 ## Otro
 
 ```mermaid
-graph TB
+graph TD
     subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
         subgraph Container_B [«docker» 🔵 SFTP server]
