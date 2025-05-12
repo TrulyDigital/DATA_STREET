@@ -55,13 +55,16 @@ graph TB
 
 ```mermaid
 graph TD
-    A[«laptop»\<br/> 💻 User]
-    B[«docker»\<br/> 📂 yahoo_finance]
-    C[«docker»\<br/> 🔵 kafka_connect]
-    D[«docker»\<br/> 🔵 kafka_topic]
+    subgraph Container_A []
+        A[«laptop»\<br/> 💻 User]
+        B[«docker»\<br/> 📂 yahoo_finance]
+        C[«docker»\<br/> 🔵 kafka_connect]
+        D[«docker»\<br/> 🔵 kafka_topic]
 
-    A --> B
-    C --> B
-    C --> D
+        [*] --> A
+        A --> B
+        C --> B
+        C --> D
+    end
 ```
 
