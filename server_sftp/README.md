@@ -12,7 +12,7 @@ graph TD
 ## Otro
 
 ```mermaid
-graph TD
+graph LR
     subgraph Contenedor_A [Linux Server]
         A1[&lt;&lt;folder&gt;&gt;\<br/> 📂 server_sftp]
         A2[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 yahoo_finance]
