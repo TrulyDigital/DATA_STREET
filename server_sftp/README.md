@@ -39,7 +39,7 @@ graph TD
             B3[«folder»\<br/> 📂 other folders]
         end
 
-        A1 -- mapped volume --- B1
+        A1 -- mapped volume -. B1
 
         B1 -- have --> B2
         B1 -- can have --> B3
