@@ -29,7 +29,7 @@ graph TD
 
 ```mermaid
 graph TB
-    subgraph Container_A [«server» 💻 Ubuntu]
+    subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
         subgraph Container_B [«docker» 🔵 SFTP server]
             B1[«folder»\<br/> 📂 server_sftp]
