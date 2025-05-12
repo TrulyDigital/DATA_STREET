@@ -61,10 +61,11 @@ graph TD
         C[«docker»\<br/> 🔵 kafka_connect]
         D[«docker»\<br/> 🔵 kafka_topic]
 
-        inicio((Inicio)) --> A
+        start((Start)) --> A
         A --> B
         C --> B
         C --> D
+        C --> end((End))
     end
 ```
 
