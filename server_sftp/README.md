@@ -22,7 +22,7 @@ graph TD
         B1[«folder»\<br/> 📂 server_sftp]
     end
     
-    A1 -- send csv files --> B1
+    A1 -- send CSV files --> B1
 ```
 
 ## Otro
