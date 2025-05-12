@@ -1,4 +1,4 @@
-![Banner](../assets/github_banner/github-banner.webp)
+<img src="../assets/github_banner/github-banner.webp" alt="Hero Banner" style="width:100%; max-width:1200px;" />
 
 # Server SFTP
 
