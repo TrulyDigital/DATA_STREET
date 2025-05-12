@@ -1,0 +1,17 @@
+services:
+    # sftp server
+    server-sftp:
+        image: atmoz/sftp:latest
+        container_name: server-sftp
+        ports:
+            - "${ENV_LOCAL_SFTP_PORT}:22"
+        command: ${ENV_LOCAL_SFTP_USER}:${ENV_LOCAL_SFTP_PASSWORD}:::../${ENV_LOCAL_SFTP_USER}
+        volumes:
+            - ../server_sftp:${ENV_LOCAL_SFTP_CONTAINER_PATH_FOLDER}
+        networks:
+            - net-local-data-street
+
+networks:
+    net-local-data-street:
+        name: net-local-data-street
+        external: true
