@@ -60,12 +60,12 @@ graph TD
         B[«docker»\<br/> 📂 yahoo_finance]
         C[«docker»\<br/> 🔵 kafka_connect]
         D[«docker»\<br/> 🔵 kafka_topic]
-
-        start((Start)) --> A
-        A --> B
-        C --> B
-        C --> D
-        C --> end((End))
     end
+
+    start((Start)) --> A
+    A --> B
+    C --> B
+    C --> D
+    D --> end((End))
 ```
 
