@@ -1,4 +1,4 @@
-![Banner](./assets/github_banner/github-banner.webp)
+![Banner](../assets/github_banner/github-banner.webp)
 
 # Server SFTP
 
