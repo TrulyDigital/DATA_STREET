@@ -18,7 +18,7 @@ graph TD
         A1[«software»\<br> Client SFTP]
     end
 
-    subgraph Container_B [«server»   Ubuntu]
+    subgraph Container_B [«server»&nbsp;&nbsp;Ubuntu]
         B1[«folder»\<br/> 📂 server_sftp]
     end
     
