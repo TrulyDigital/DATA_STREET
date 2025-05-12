@@ -13,11 +13,11 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph Container_A [«server»\<br/>💻 Linux Server\<br/>\<br/>\<br/>]
-        subgraph Contenedor_A [SFTP - Linux Server]
-            A1[&laquo;folder&raquo;\<br/> 📂 server_sftp]
-            A2[&laquo;folder&raquo;\<br/> 📂 yahoo_finance]
-            A3[&laquo;folder&raquo;\<br/> 📂 other folders]
+    subgraph Container_A [«server»\<br/>💻 Linux Server]
+        subgraph Contenedor_A [«docker container»\<br/>🔷 SFTP server]
+            A1[«folder»\<br/> 📂 server_sftp]
+            A2[«folder»\<br/> 📂 yahoo_finance]
+            A3[«folder»\<br/> 📂 other folders]
         end
 
         A1 -- have --> A2
