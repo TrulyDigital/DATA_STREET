@@ -44,8 +44,8 @@ graph TD
         B1 -- have --> B2
         B1 -- can have --> B3
 
-        classDef note_a1 fill:#53eafd,stroke:#333,stroke-width:1px;
-        classDef note_b1 fill:#53eafd,stroke:#333,stroke-width:1px;
+        classDef note_a1 fill:#a2f4fd,stroke:#333,stroke-width:1px;
+        classDef note_b1 fill:#a2f4fd,stroke:#333,stroke-width:1px;
     end
 ```
 
