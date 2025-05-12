@@ -13,8 +13,8 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph Container_A [«server» - 💻 Linux Server]
-        subgraph Contenedor_A [«docker» - 🔷 SFTP server]
+    subgraph Container_A [«server» 💻 Linux Server]
+        subgraph Contenedor_A [«docker» 🔵 SFTP server]
             A1[«folder»\<br/> 📂 server_sftp]
             A2[«folder»\<br/> 📂 yahoo_finance]
             A3[«folder»\<br/> 📂 other folders]
