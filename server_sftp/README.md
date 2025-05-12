@@ -35,13 +35,13 @@ graph TD
             B1[«folder»\<br/> 📂 server_sftp]
             B2[«folder»\<br/> 📂 yahoo_finance]
             B3[«folder»\<br/> 📂 other folders]
+
+            B1 -- have --> B2
+            B1 -- can have --> B3
         end
 
         A1 --> B1
         B1 --> A1
-
-        B1 -- have --> B2
-        B1 -- can have --> B3
     end
 ```
 
