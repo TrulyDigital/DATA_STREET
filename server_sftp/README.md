@@ -14,7 +14,7 @@ graph TD
 ```mermaid
 graph TD
     subgraph Container_A [«laptop» 💻 User]
-        A1[«software» Client SFTP]
+        A1[«software»\<br> Client SFTP]
     end
 ```
 
