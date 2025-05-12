@@ -13,14 +13,16 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph Contenedor_A [Linux Server]
-        A1[&laquo;folder&raquo;\<br/> 📂 server_sftp]
-        A2[&laquo;folder&raquo;\<br/> 📂 yahoo_finance]
-        A3[&laquo;folder&raquo;\<br/> 📂 other folders]
-    end
+    subgraph Container_A [&laquo;server&raquo;\<br/> 💻 Linux Server]
+        subgraph Contenedor_A [SFTP - Linux Server]
+            A1[&laquo;folder&raquo;\<br/> 📂 server_sftp]
+            A2[&laquo;folder&raquo;\<br/> 📂 yahoo_finance]
+            A3[&laquo;folder&raquo;\<br/> 📂 other folders]
+        end
 
-    A1 -- have --> A2
-    A1 -- can have --> A3
+        A1 -- have --> A2
+        A1 -- can have --> A3
+    end
 ```
 
 ## Aprendiendo mermad
