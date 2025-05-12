@@ -12,7 +12,7 @@ graph TD
 ## Other
 
 ```mermaid
-graph LR
+graph TD
     
     subgraph Container_A [«laptop» 💻 User]
         A1[«software»\<br> Client SFTP]
@@ -22,7 +22,7 @@ graph LR
         B1[«folder»\<br/> 📂 server_sftp]
     end
     
-    A -- send csv files --> B
+    A1 -- send csv files --> B1
 ```
 
 ## Otro
