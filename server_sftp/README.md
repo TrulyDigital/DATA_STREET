@@ -9,6 +9,22 @@ graph TD
     B --> F[./3_errors]
 ```
 
+## Otro
+
+```mermaid
+graph TD
+    subgraph Contenedor_A [Linux Server]
+        A1[PATH_TO_FOLDER/server_sftp]
+        A2[/yahoo_finance]
+        A3[/other_folder]
+        A4[/other_folder]
+    end
+
+    A1 --> A2
+    A1 --> A3
+    A1 --> A4
+```
+
 ## Aprendiendo mermad
 
 ```mermaid
