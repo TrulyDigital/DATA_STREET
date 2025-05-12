@@ -12,17 +12,15 @@ graph TD
 ## Otro
 
 ```mermaid
-graph LR
+graph TD
     subgraph Contenedor_A [Linux Server]
         A1[&lt;&lt;folder&gt;&gt;\<br/> 📂 server_sftp]
         A2[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 yahoo_finance]
-        A3[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 other_folder]
-        A4[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 other_folder]
+        A3[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 other folders]
     end
 
     A1 --> A2
     A1 --> A3
-    A1 --> A4
 ```
 
 ## Aprendiendo mermad
