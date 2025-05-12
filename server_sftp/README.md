@@ -1,3 +1,5 @@
+![Banner](./assets/github_banner/github-banner.webp)
+
 # Server SFTP
 
 Detail of the SFTP server implementation in Docker, as well as an overview from the perspective of the solution architecture and the process flow of this part of the application.
