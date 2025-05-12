@@ -31,7 +31,7 @@ graph TD
 graph TD
     subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
-        subgraph Container_B [«docker»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔵 SFTP server]
+        subgraph Container_B [«docker»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔵 SFTP]
             B1[«folder»\<br/> 📂 server_sftp]
             B2[«folder»\<br/> 📂 yahoo_finance]
             B3[«folder»\<br/> 📂 other folders]
