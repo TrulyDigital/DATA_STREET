@@ -11,7 +11,7 @@ graph TD
 
 ## Aprendiendo mermad
 
-```memarid
+```mermaid
 graph TB
     subgraph Contenedor_A [Contenedor A]
         A1[Servicio 1]
