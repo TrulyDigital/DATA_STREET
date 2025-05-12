@@ -12,7 +12,7 @@ graph TD
 ## Other
 
 ```mermaid
-graph TD
+graph LR
     
     subgraph Container_A [«laptop» 💻 User]
         A1[«software»\<br> Client SFTP]
@@ -23,9 +23,6 @@ graph TD
     end
     
     A1 -- send csv files --> B1
-    B1 --> Z1[nota]
-    Z1:::note
-    classDef note fill:#f9f,stroke:#333,stroke-width:1px;
 ```
 
 ## Otro
