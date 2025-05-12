@@ -2,6 +2,8 @@
 
 ## Other
 
+From the `Data Street` project, functionality is provided that allows a personal computer, using an SFTP client, to connect to the application's SFTP server and upload files in `CSV` format. These files will later be processed by other components defined in the application's architecture, which will be reviewed in detail in other sections.
+
 ```mermaid
 graph TD
     
