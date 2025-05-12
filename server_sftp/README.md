@@ -55,7 +55,7 @@ graph TB
 
 ```mermaid
 graph TD
-    subgraph Container_A [Flujo]
+    subgraph Container_A []
         A[«laptop»\<br/> 💻 User]
         B[«docker»\<br/> 💻 sftp_server]
         C[«docker»\<br/> 🔵 kafka_connect]
