@@ -28,7 +28,7 @@ graph TD
 ## Otro
 
 ```mermaid
-graph TD
+graph TB
     subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
         subgraph Container_B [«docker» 🔵 SFTP server]
@@ -37,7 +37,6 @@ graph TD
             B3[«folder»\<br/> 📂 other folders]
         end
 
-        B1 --> A1
         A1 --> B1
 
         B1 -- have --> B2
