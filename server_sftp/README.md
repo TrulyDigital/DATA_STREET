@@ -13,16 +13,23 @@ graph TD
 
 ```mermaid
 graph TD
+    
     subgraph Container_A [«laptop» 💻 User]
         A1[«software»\<br> Client SFTP]
     end
+
+    subgraph Container_B [«server» 💻 Ubuntu]
+        B1[«folder»\<br/> 📂 server_sftp]
+    end
+
+    A1 -- send csv files --> B1
 ```
 
 ## Otro
 
 ```mermaid
 graph TD
-    subgraph Container_A [«server» 💻 Linux Server]
+    subgraph Container_A [«server» 💻 Ubuntu]
         subgraph Contenedor_A [«docker» 🔵 SFTP server]
             A1[«folder»\<br/> 📂 server_sftp]
             A2[«folder»\<br/> 📂 yahoo_finance]
