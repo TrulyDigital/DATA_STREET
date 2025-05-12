@@ -20,15 +20,13 @@ graph TD
 
     subgraph Container_B [«server» Ubuntu]
         B1[«folder»\<br/> 📂 server_sftp]
-
-        note right of B1
-            Esta es una nota explicativa
-            sobre el proceso principal.
-        end note
     end
 
+    note right of B
+        Esta es una nota explicativa
+        sobre el proceso principal.
+    end note
     
-
     A1 -- send csv files --> B1
 ```
 
