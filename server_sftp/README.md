@@ -31,8 +31,10 @@ graph TD
 graph TD
     subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
+        A1:::note_a1
         subgraph Container_B [«docker»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔵 SFTP]
             B1[«folder»\<br/> 📂 server_sftp]
+            B1:::note_b1
             B2[«folder»\<br/> 📂 yahoo_finance]
             B3[«folder»\<br/> 📂 other folders]
         end
@@ -41,6 +43,9 @@ graph TD
 
         B1 -- have --> B2
         B1 -- can have --> B3
+
+        classDef note_a1 fill:#53eafd,stroke:#333,stroke-width:1px;
+        classDef note_b1 fill:#53eafd,stroke:#333,stroke-width:1px;
     end
 ```
 
