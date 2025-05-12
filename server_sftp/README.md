@@ -2,5 +2,5 @@
 
 ```mermaid
 graph TD
-    A[./server_sftp] -- Sí --> B[./yahoo_finance]
+    A[PATH_TO_PROJECT/server_sftp] -- Sí --> B[./yahoo_finance]
     A -- No --> C[./other_folders]
