@@ -37,7 +37,7 @@ graph TD
             B3[«folder»\<br/> 📂 other folders]
         end
 
-        A1 --> B1
+        A1 --- B1
 
         B1 -- have --> B2
         B1 -- can have --> B3
