@@ -22,6 +22,11 @@ graph TD
         B1[«folder»\<br/> 📂 server_sftp]
     end
 
+    note right of B1
+        Esta es una nota explicativa
+        sobre el proceso principal.
+    end note
+
     A1 -- send csv files --> B1
 ```
 
