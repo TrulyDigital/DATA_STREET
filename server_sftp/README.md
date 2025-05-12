@@ -53,7 +53,7 @@ graph TD
 
 ```mermaid
 graph TB
-    subgraph Container_A [«folder» 📂 yahoo_finance]
+    subgraph Container_A [«folder»\<br> 📂 yahoo_finance]
         A1[«folder»\<br/> 📂 1_file_new]
         A2[«folder»\<br/> 📂 2_file_processed]
         A3[«folder»\<br/> 📂 3_file_errors]
