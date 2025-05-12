@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-    A[Inicio] --> B{¿Decisión?}
+    A[$PROJECT_PATH/server_sftp] --> B{¿Decisión?}
     B -- Sí --> C[Haz esto]
     B -- No --> D[Haz otra cosa]
     C --> E[Fin]
