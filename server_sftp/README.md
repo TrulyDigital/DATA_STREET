@@ -20,7 +20,7 @@ graph TD
     end
 
     A1 -- have --> A2
-    A1 -- can hace --> A3
+    A1 -- can have --> A3
 ```
 
 ## Aprendiendo mermad
