@@ -14,10 +14,10 @@ graph TD
 ```mermaid
 graph TD
     subgraph Contenedor_A [Linux Server]
-        A1[PATH_TO_FOLDER/server_sftp]
-        A2[/yahoo_finance]
-        A3[/other_folder]
-        A4[/other_folder]
+        A1[FOLDER server_sftp]
+        A2[SUB_FOLDER yahoo_finance]
+        A3[SUB_FOLDER other_folder]
+        A4[SUB_FOLDER other_folder]
     end
 
     A1 --> A2
