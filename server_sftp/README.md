@@ -57,11 +57,15 @@ graph TB
 graph TD
     subgraph Container_A [Flujo]
         A[«laptop»\<br/> 💻 User]
-        B[«docker»\<br/> 📂 yahoo_finance]
+        B[«docker»\<br/> 💻 sftp_server]
         C[«docker»\<br/> 🔵 kafka_connect]
         C:::note_c
         D[«docker»\<br/> 🔵 kafka_topic]
         D:::note_d
+        E[«docker»\<br/> 🔵 microservice]
+        E:::note_e
+        F[«docker»\<br/> 🔵 database]
+        F:::note_f
     end
 
     Start((Start)) --> A
