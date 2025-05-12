@@ -53,9 +53,9 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph Container_A [«server»\<br> 💻 Ubuntu]
-        subgraph Container_B [«docker»\<br> 💻 SFTP]
-            subgraph Container_C [«folder»\<br> 📂 server_sftp]
+    subgraph Container_A [«server» 💻 Ubuntu]
+        subgraph Container_B [«docker» 💻 SFTP]
+            subgraph Container_C [«folder» 📂 server_sftp]
                 C1[«folder»\<br/> 📂 1_file_new]
                 C2[«folder»\<br/> 📂 2_file_processed]
                 C3[«folder»\<br/> 📂 3_file_errors]
