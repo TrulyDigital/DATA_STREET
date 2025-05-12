@@ -14,7 +14,7 @@ graph TD
 ```mermaid
 graph TD
     subgraph Contenedor_A [Linux Server]
-        A1[&lt;&lt;folder&gt;&gt;\<br/> server_sftp]
+        A1[&lt;&lt;folder&gt;&gt;\<br/> 📂 server_sftp]
         A2[SUB_FOLDER\<br/> yahoo_finance]
         A3[SUB_FOLDER\<br/> other_folder]
         A4[SUB_FOLDER\<br/> other_folder]
