@@ -52,15 +52,12 @@ graph TD
 ## Other
 
 ```mermaid
-graph TD
+graph TB
     subgraph Container_A [«folder» 📂 yahoo_finance]
         A1[«folder»\<br/> 📂 1_file_new]
         A2[«folder»\<br/> 📂 2_file_processed]
         A3[«folder»\<br/> 📂 3_file_errors]
     end
-
-    A1 -. A2
-    A2 -. A3
 ```
 
 ## Aprendiendo mermad
