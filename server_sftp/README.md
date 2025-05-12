@@ -64,8 +64,11 @@ graph TD
 
     Start((Start)) --> A
     A --> B
-    B --- C
+    B --> C
     C --> D
     D --> End((End))
+
+    classDef C fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
+    classDef D fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
 ```
 
