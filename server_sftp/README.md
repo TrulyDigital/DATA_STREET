@@ -59,7 +59,9 @@ graph TD
         A[«laptop»\<br/> 💻 User]
         B[«docker»\<br/> 📂 yahoo_finance]
         C[«docker»\<br/> 🔵 kafka_connect]
+        C:::note_c
         D[«docker»\<br/> 🔵 kafka_topic]
+        D:::note_d
     end
 
     Start((Start)) --> A
@@ -68,7 +70,7 @@ graph TD
     C --> D
     D --> End((End))
 
-    classDef C fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
-    classDef D fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
+    classDef note_c fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
+    classDef note_d fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
 ```
 
