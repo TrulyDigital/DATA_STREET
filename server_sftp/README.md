@@ -15,9 +15,9 @@ graph TD
 graph TD
     subgraph Contenedor_A [Linux Server]
         A1[&lt;&lt;folder&gt;&gt;\<br/> 📂 server_sftp]
-        A2[SUB_FOLDER\<br/> yahoo_finance]
-        A3[SUB_FOLDER\<br/> other_folder]
-        A4[SUB_FOLDER\<br/> other_folder]
+        A2[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 yahoo_finance]
+        A3[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 other_folder]
+        A4[&lt;&lt;sub_folder&gt;&gt;\<br/> 📂 other_folder]
     end
 
     A1 --> A2
