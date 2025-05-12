@@ -13,7 +13,7 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph "«server»\n💻 Linux Server"
+    subgraph Container_A ["«server»\n💻 Linux Server"]
         subgraph Contenedor_A [SFTP - Linux Server]
             A1[&laquo;folder&raquo;\<br/> 📂 server_sftp]
             A2[&laquo;folder&raquo;\<br/> 📂 yahoo_finance]
