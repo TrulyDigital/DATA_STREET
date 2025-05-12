@@ -19,8 +19,8 @@ graph TD
         A3[&laquo;folder&raquo;\<br/> 📂 other folders]
     end
 
-    A1 --> A2
-    A1 --> A3
+    A1 -- have --> A2
+    A1 -- can hace --> A3
 ```
 
 ## Aprendiendo mermad
