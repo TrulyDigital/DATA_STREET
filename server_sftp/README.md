@@ -22,7 +22,7 @@ graph LR
         B1[«folder»\<br/> 📂 server_sftp]
     end
     
-    A1 -- send csv files --> B1
+    A -- send csv files --> B
 ```
 
 ## Otro
