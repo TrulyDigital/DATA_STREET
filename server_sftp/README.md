@@ -28,17 +28,17 @@ graph TD
 ## Otro
 
 ```mermaid
-graph TB
+graph TD
     subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
-        A1 --> B1
-        B1 --> A1
-        
         subgraph Container_B [«docker» 🔵 SFTP server]
             B1[«folder»\<br/> 📂 server_sftp]
             B2[«folder»\<br/> 📂 yahoo_finance]
             B3[«folder»\<br/> 📂 other folders]
         end
+
+        A1 --> B1
+        B1 --> A1
 
         B1 -- have --> B2
         B1 -- can have --> B3
