@@ -9,6 +9,15 @@ graph TD
     B --> F[./3_errors]
 ```
 
+## Other
+
+```mermaid
+graph TD
+    subgraph Container_A [«laptop» 💻 User]
+        A1[«software» Client SFTP]
+    end
+```
+
 ## Otro
 
 ```mermaid
