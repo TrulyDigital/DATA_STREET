@@ -54,7 +54,7 @@ graph TB
 ## Other
 
 ```mermaid
-graph TB
+graph TD
     A[«laptop»\<br/> 💻 User]
     B[«docker»\<br/> 📂 yahoo_finance]
     C[«docker»\<br/> 🔵 kafka_connect]
