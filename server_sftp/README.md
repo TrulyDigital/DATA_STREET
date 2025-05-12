@@ -24,8 +24,6 @@ graph TD
     
     A1 -- send csv files --> B1
     B1 -- > Z1[nota]
-    Z1:::note
-    classDef note fill:#f9f,stroke:#333,stroke-width:1px;
 ```
 
 ## Otro
