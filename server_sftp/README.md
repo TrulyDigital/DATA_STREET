@@ -105,7 +105,7 @@ graph TD
             B2[«folder»\<br/> 📂 yahoo_finance]
         end
 
-        subgraph Container_C [«docker»🔵Kafka_Connect]
+        subgraph Container_C [«docker» 🔵Kafka_Connect]
             C1[«service»\<br/> SFTP Source Connector]
         end
 
