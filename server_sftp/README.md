@@ -91,3 +91,31 @@ graph TD
     classDef note_f fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
 ```
 
+## Other
+
+```mermaid
+graph TD
+    subgraph Container_A [«server» 💻 Ubuntu\<br/>]
+        A1[«folder»\<br/> 📂 server_sftp]
+        A1:::note_a1
+
+        subgraph Container_B [«docker»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔵 SFTP]
+            B1[«folder»\<br/> 📂 server_sftp]
+            B1:::note_b1
+            B2[«folder»\<br/> 📂 yahoo_finance]
+        end
+
+        subgraph Container_C [«docker»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔵 Kafka_Connect]
+            C1[«service»\<br/> SFTP Source Connector]
+        end
+
+        A1 -- mapped volume --- B1
+        B1 -- have --> B2
+
+        C1 --> B2
+
+        classDef note_a1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
+        classDef note_b1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
+    end
+```
+
