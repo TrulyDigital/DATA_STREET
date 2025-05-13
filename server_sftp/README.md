@@ -115,8 +115,8 @@ graph TD
 
         A1 -- mapped volume --- B1
         B1 --> B2
-        C1 --> B2
-        C1 --> D1
+        C1 -- Detect Incomming CSV files --> B2
+        C1 -- Emit lines to topic --> D1
 
         classDef note_a1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
         classDef note_b1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
