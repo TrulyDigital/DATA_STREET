@@ -118,7 +118,7 @@ graph TD
         end 
     end
 
-    E1 -. upload CSV file .-> A1
+    E1 -. upload CSV file .-> B1
     B1 -. mapped volume .-> A1
     B1 -.-> B2
     C1 -. Detect Incoming CSV files .-> B2
