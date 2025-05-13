@@ -94,7 +94,7 @@ graph TD
 ## Other
 
 ```mermaid
-graph TD
+graph TB
     subgraph Container_E [«laptop»💻 User]
         E1[«software»\<br> Client SFTP]
     end
