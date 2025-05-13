@@ -1,6 +1,6 @@
 <img src="../assets/github_banner/github-banner.webp" alt="Hero Banner" style="width:100%; max-width:1200px;" />
 
-# Server SFTP
+# SFTP Server
 
 Detail of the SFTP server implementation in Docker, as well as an overview from the perspective of the solution architecture and the process flow of this part of the application.
 
@@ -65,15 +65,15 @@ graph TB
 ```mermaid
 graph TD
     subgraph Container_A [.]
-        A[«1_laptop»\<br/> 💻 User]
-        B[«2_docker»\<br/> 💻 sftp_server]
-        C[«3_docker»\<br/> 🔵 kafka_connect]
+        A[«1 laptop»\<br/> 💻 User]
+        B[«2 docker»\<br/> 💻 sftp_server]
+        C[«3 docker»\<br/> 🔵 kafka_connect]
         C:::note_c
-        D[«4_docker»\<br/> 🔵 kafka_topic]
+        D[«4 docker»\<br/> 🔵 kafka_topic]
         D:::note_d
-        E[«5_docker»\<br/> 🔵 microservice]
+        E[«5 docker»\<br/> 🔵 microservice]
         E:::note_e
-        F[«6_docker»\<br/> 🔵 database]
+        F[«6 docker»\<br/> 🔵 database]
         F:::note_f
     end
 
