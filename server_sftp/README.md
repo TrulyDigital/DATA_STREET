@@ -99,7 +99,7 @@ graph TD
         A1[«folder»\<br/> 📂 server_sftp]
         A1:::note_a1
 
-        subgraph Container_B [«docker» 🔵SFTP]
+        subgraph Container_B [🔵 «docker» SFTP]
             B1[«folder»\<br/> 📂 server_sftp]
             B1:::note_b1
             B2[«folder»\<br/> 📂 yahoo_finance]
