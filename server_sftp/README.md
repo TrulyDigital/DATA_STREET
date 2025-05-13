@@ -111,7 +111,7 @@ graph TD
 
         A1 -- mapped volume --- B1
         B1 --> B2
-        B2 -. C1
+        B2 --- C1
 
         classDef note_a1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
         classDef note_b1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
