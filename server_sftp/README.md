@@ -95,6 +95,10 @@ graph TD
 
 ```mermaid
 graph TD
+    subgraph Container_E [«laptop»💻 User]
+        E1[«software»\<br> Client SFTP]
+    end
+
     subgraph Container_A [«server» 💻 Ubuntu\<br/>]
         A1[«folder»\<br/> 📂 server_sftp]
         A1:::note_a1
@@ -113,6 +117,7 @@ graph TD
             D1[«service»\<br/> Topic]
         end 
 
+        E1 -. upload CSV file .-> A1
         A1 -. mapped volume .-> B1
         B1 -.-> B2
         C1 -. Detect Incoming CSV files .-> B2
