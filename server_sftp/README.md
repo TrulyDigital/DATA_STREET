@@ -115,7 +115,15 @@ graph TD
 
         subgraph Container_D [🔵«docker» Kafka_Broker]
             D1[«service»\<br/> Topic]
-        end 
+        end
+
+        subgraph Container_F [🔵«docker» Microservice]
+            F1[«microservice»\<br/> Consumer]
+        end
+
+        subgraph Container_G [🔵«docker» Database]
+            G1[«database»\<br/> PostgreSQL]
+        end
     end
 
     E1 -. upload CSV file .-> B1
@@ -123,6 +131,8 @@ graph TD
     B1 -.-> B2
     C1 -. Detect Incoming CSV files .-> B2
     C1 -. Emit lines to topic .-> D1
+    F1 -. Consume topic .-> D1
+    F1 -. Save register .-> G1
 
     classDef note_a1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
     classDef note_b1 fill:#fce7f3,stroke:#f6339a,stroke-width:1px;
