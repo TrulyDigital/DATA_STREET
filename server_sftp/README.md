@@ -114,7 +114,7 @@ graph TD
         end 
 
         A1 -. mapped volume .-> B1
-        B1 --> B2
+        B1 -.-> B2
         C1 -. Detect Incoming CSV files .-> B2
         C1 -. Emit lines to topic .-> D1
 
