@@ -99,17 +99,17 @@ graph TD
         A1[«folder»\<br/> 📂 server_sftp]
         A1:::note_a1
 
-        subgraph Container_B [🔵 «docker» SFTP]
+        subgraph Container_B [🔵«docker» SFTP]
             B1[«folder»\<br/> 📂 server_sftp]
             B1:::note_b1
             B2[«folder»\<br/> 📂 yahoo_finance]
         end
 
-        subgraph Container_C [«docker» 🔵Kafka_Connect]
+        subgraph Container_C [🔵«docker» Kafka_Connect]
             C1[«service»\<br/> SFTP Source Connector]
         end
 
-        subgraph Container_D [«docker» 🔵Kafka_Broker]
+        subgraph Container_D [🔵«docker» Kafka_Broker]
             D1[«service»\<br/> Topic]
         end 
 
