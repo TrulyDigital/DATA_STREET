@@ -13,6 +13,10 @@ From the `Data Street` project, functionality is provided that allows a personal
 
 ![Texto alternativo](../assets/server_sftp/SFTP_Server.svg)
 
+<p align="center">
+  <img src="../assets/server_sftp/SFTP_Server.svg" alt="Diagrama de arquitectura" style="width: 90%; max-width: 600px; height: auto;">
+</p>
+
 ```mermaid
 graph TD
     
