@@ -16,7 +16,7 @@ From the `Data Street` project, functionality is provided that allows a personal
 <!-- Imagen para pantallas pequeñas (móviles) -->
 <source media="(max-width: 768px)" srcset="../assets/server_sftp/SFTP_Server.svg">
 <!-- Imagen para pantallas grandes (PC) -->
-<img src="../assets/server_sftp/SFTP_Server.svg" alt="Diagrama de arquitectura" style="width: 27%; height: auto;">
+<img src="../assets/server_sftp/SFTP_Server.svg" alt="Diagrama de arquitectura" style="width: 27%; height: auto;" width="27%">
 </picture>
 </p>
 
