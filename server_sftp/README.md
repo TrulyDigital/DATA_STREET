@@ -11,10 +11,13 @@ Detail of the SFTP server implementation in Docker, as well as an overview from 
 
 From the `Data Street` project, functionality is provided that allows a personal computer, using an SFTP client, to connect to the application's SFTP server and upload files in `CSV` format. These files will later be processed by other components defined in the application's architecture, which will be reviewed in detail in other sections.
 
-![Texto alternativo](../assets/server_sftp/SFTP_Server.svg)
-
 <p align="center">
-  <img src="../assets/server_sftp/SFTP_Server.svg" alt="Diagrama de arquitectura" style="width: 90%; max-width: 600px; height: auto;">
+<picture>
+<!-- Imagen para pantallas pequeñas (móviles) -->
+<source media="(max-width: 768px)" srcset="../assets/server_sftp/SFTP_Server.svg">
+<!-- Imagen para pantallas grandes (PC) -->
+<img src="../assets/server_sftp/SFTP_Server.svg" alt="Diagrama de arquitectura" style="width: 27%; height: auto;">
+</picture>
 </p>
 
 ```mermaid
