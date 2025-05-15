@@ -1,0 +1,47 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="server_sftp" id="qQXmm7zLfA8jj1Xl-jR9">
+    <mxGraphModel dx="601" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="370" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LoJUoXQXAQWSItAxroNA-2" value="&amp;nbsp;&lt;b&gt;Ubuntu Server&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;fontFamily=Inter;fillStyle=auto;fillColor=#FEFCE8;strokeColor=#F0B100;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="LoJUoXQXAQWSItAxroNA-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-4" value="&amp;nbsp;&lt;b&gt;Docker Container&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=top;align=left;fontFamily=Inter;strokeColor=#2B7FFF;fillColor=#EFF6FF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="LoJUoXQXAQWSItAxroNA-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-6" value="&lt;b&gt;Sftp Server&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;verticalAlign=middle;align=center;fontFamily=Inter;fillColor=#FDF4FF;strokeColor=#E12AFB;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-7" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="LoJUoXQXAQWSItAxroNA-6">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-16" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;align=center;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-18" value="&lt;font style=&quot;color: rgb(255, 255, 255); background-color: rgb(102, 0, 102);&quot;&gt;&lt;b&gt;Use&lt;/b&gt;&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="LoJUoXQXAQWSItAxroNA-16" target="LoJUoXQXAQWSItAxroNA-6">
+          <mxGeometry x="-0.625" width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="110" as="sourcePoint" />
+            <mxPoint x="440" y="110" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoJUoXQXAQWSItAxroNA-21" value="Actor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="35" width="30" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
