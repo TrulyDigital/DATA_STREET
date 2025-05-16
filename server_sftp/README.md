@@ -17,10 +17,6 @@ From the `Data Street` project, functionality is provided that allows a personal
 
 ![Descripción de la imagen](../assets/server_sftp/server_sftp.drawio.svg)
 
-<p align="center">
-<img src="../assets/server_sftp/SFTP_Server.svg" alt="Diagrama de arquitectura" width="500">
-</p>
-
 ```mermaid
 graph TD
     
