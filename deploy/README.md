@@ -27,3 +27,7 @@ Stop application - SFTP server
 ```env
 $ docker compose -f deploy/server-sftp.dev.yaml down
 ```
+
+```
+$ docker compose -f deploy/server-sftp.local.yam logs
+```
